@@ -5,6 +5,6 @@ GitHub Pages
 
 리소스 절대 경로 : https://hellogoseknock.github.io/home/
 
-상대 경로는 어떻게 표현하는가?
+상대 경로는 ./ 혹은 ../
 
 이미지등을 업로드한 경우 적용되는데 몇 분 걸림
