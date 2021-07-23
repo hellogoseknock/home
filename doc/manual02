@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mongoDB 설치 및 간단 확인</title>
+</head>
+<body>
+    <pre>
+      0. mongoDB Community Server 4.4.7 (223MB 설치)
+
+      1. C:\Program Files\MongoDB\Server\4.4\bin 경로를 환경변수에 등록
+      2. cmd창 열어서 mongo --version 확인
+      3. mongod (데몬 가동)
+      4. mongod --dbpath C:\WIP\mongodb --port 27017  (파일저장경로, 윈도우창 유지)
+      5. 기존 작업창 그대로 유지한채 새로운 cmd창 띄우고 mongo 접속
+
+      6. show dbs		3개의 디폴트 DB가 보임
+      7. use temp		temp라는 이름의 db생성
+      8. show collections		현재 아무것도 없는 상황
+      9. db.createCollection("user") user라는 이름의 collection(기존 테이블) 생성
+      10. db.temp.insertOne( {user: "test, age: 30} )	신규데이터 temp에 추가
+      11. db.temp.find()		temp의 항목 확인
+      12. db.temp.find().pretty()	temp의 항목을 좀더 가독성있게 확인
+
+      13. MongoDBCompass로 좀더 비쥬얼 하게 작업 가능.
+          </pre>
+
+
+</body>
+</html>
