@@ -5,6 +5,8 @@ GitHub Pages
 
 영상기록 1~2분 내외, 소리없음, 녹화해상도 2560x1440
 
+영상 기록
+
 [0. 빠른 html 코드 확인](https://hellogoseknock.github.io/home/video/quick01.mp4)
 
 [1. 빠른 js 코드 확인](https://hellogoseknock.github.io/home/video/quick02.mp4)
@@ -16,7 +18,7 @@ GitHub Pages
 [4. 빠른 three.js 적용](https://hellogoseknock.github.io/home/video/quick05.mp4)
 
 
-설치문서
+문서 
 
 <a href="https://hellogoseknock.github.io/home/doc/manual01.html">LightSail과 VSC 연동 후 express 접속 테스트</a>
 
