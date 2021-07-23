@@ -18,7 +18,7 @@ GitHub Pages
 [4. 빠른 three.js 적용](https://hellogoseknock.github.io/home/video/quick05.mp4)
 
 
-문서 
+문서 기록
 
 <a href="https://hellogoseknock.github.io/home/doc/manual01.html">LightSail과 VSC 연동 후 express 접속 테스트</a>
 
